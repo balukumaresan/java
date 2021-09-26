@@ -7,15 +7,26 @@ import java.util.Scanner;
 import com.balu.gl.algorithms.stockers.util.BinarySearchImpl;
 import com.balu.gl.algorithms.stockers.util.MergeSortImpl;
 
+/**
+ * Stock Analyzer takes the input from the user. Give the insight based on the
+ * Operation selected.
+ * 
+ * @author baluk
+ *
+ */
 public class StockAnalyzer {
 
 	int noOfCompanies;
 	double[] todaysShares;
-	Scanner sc = new Scanner(System.in);
-	Map<String, Integer> stockVariationStatus = new HashMap<>();
 	int increasedCount;
 	int decreasedCount;
+	Scanner sc = new Scanner(System.in);
+	Map<String, Integer> stockVariationStatus = new HashMap<>();
 
+	/**
+	 * Take stocks details input from the user and analyze and provide the insight.
+	 * 
+	 */
 	public void analyzeStock() {
 
 		collectUserShareInput();
@@ -64,15 +75,12 @@ public class StockAnalyzer {
 				start = false;
 				System.out.println("Exited successfully");
 				break;
-
 			}
-
 			}
 
 			if (!start) {
 				System.exit(0);
 			}
-
 		}
 	}
 
@@ -96,21 +104,14 @@ public class StockAnalyzer {
 	}
 
 	private void displayStocksInAscendingOrder() {
-
 		for (int i = 0; i < todaysShares.length; i++) {
 			System.out.print(todaysShares[i] + " ");
 		}
 	}
 
 	private void diplayStocksInDecendingOrder() {
-
 		for (int i = todaysShares.length - 1; i >= 0; i--) {
-
-			if (i == 0) {
-				System.out.println(todaysShares[i] + " ");
-			} else {
-				System.out.print(todaysShares[i] + " ");
-			}
+			System.out.print(todaysShares[i] + " ");
 		}
 	}
 
