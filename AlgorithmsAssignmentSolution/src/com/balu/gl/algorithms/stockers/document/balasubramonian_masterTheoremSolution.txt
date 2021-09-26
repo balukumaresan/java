@@ -1,0 +1,9 @@
+Find the time complexity of the below functions in Θ form. Write NA if the function does not
+apply to any case.
+
+
+a) T (n) = 3T (n/2) + n           = Θ(n^2)
+b) T (n) = 64T (n/8) − n^2(log n) = N/A
+c) T (n) = 2nT (n/2) + n^n        = N/A
+d) T (n) = 3T (n/3) + n/2         =  Θ(n log n)
+e) T (n) = 7T (n/3) + n^2         = N/A
