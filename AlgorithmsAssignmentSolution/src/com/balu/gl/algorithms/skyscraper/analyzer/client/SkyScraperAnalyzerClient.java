@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.balu.gl.algorithms.skyscraper.analyzer.util.SkyScraperAnalyzer;
-import com.balu.gl.algorithms.skyscraper.analyzer.util.SkyScraperAnalyzer2;
+import com.balu.gl.algorithms.skyscraper.analyzer.util.SkyScraperAnalyzer;
 
 /**
  * Sky Scraper analyzer client
@@ -37,8 +37,7 @@ public class SkyScraperAnalyzerClient {
 			}
 		}
 
-		SkyScraperAnalyzer2 SkyScraperAnalyzer2 = new SkyScraperAnalyzer2();
-//		SkyScraperAnalyzer.analyzeFloorSize(noOfFloors, floorSizeList);
+		SkyScraperAnalyzer SkyScraperAnalyzer2 = new SkyScraperAnalyzer();
 		SkyScraperAnalyzer2.analyze2(floorSizeList);
 
 		scanner.close();
