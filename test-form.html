@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="pharmacy.css" />
+</head>
+
+<body>
+    <div id="testformdiv">
+        <form method="post">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+
+
+                            <h2>1. Your Contact Details</h2>
+                            <table>
+                                <tr>
+                                    <td><input type="text" name="fullname" id="fullname" placeholder="Full Name" /></td>
+                                    <td><input type="text" name="patientid" id="patientid"
+                                            placeholder="Patient Id if exists" /></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="contactnumber" id="contactnumber"
+                                            placeholder="Contact Number" /></td>
+                                    <td><input type="text" name="emailid" id="emailid" placeholder="Email Id" /></td>
+                                </tr>
+                            </table>
+
+                            <h2>2. Address</h2>
+                            <table>
+                                <tr>
+                                    <td><input type="text" name="houseno" id="houseno" placeholder="H-No" /></td>
+                                    <td><input type="text" name="street" id="street" placeholder="street" /></td>
+
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="area" id="area" placeholder="Area" /></td>
+                                    <td><label>District</label>
+                                        <select name="Districts" id="district">
+                                            <option value="Choose">Choose</option>
+                                            <option value="kanyakumari">KK</option>
+                                            <option value="Tirunelveli">TVL</option>
+                                            <option value="Madurai">MD</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <h2>3. Choose the Test Type</h2>
+                            <table>
+                                <tr>
+                                    <td><label style="color: blue;">Check atleast one box without fail</td>
+
+                                </tr>
+                                <tr>
+                                    <td><label for="cbc">CBC</td>
+                                    <td><input type="checkbox" name="cbc" id="cbc" value="CBC" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="urine">Complete Urine</td>
+                                    <td><input type="checkbox" name="urine" id="urine" value="urine" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="lipid">Lipid Profile</td>
+                                    <td><input type="checkbox" name="lipid" id="lipid" value="lipid" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="tsh">Thyroid Stimulating Hormone(TSH)</td>
+                                    <td><input type="checkbox" name="tsh" id="tsh" value="tsh" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="glucose">Glucose Test</td>
+                                    <td><input type="checkbox" name="glucose" id="glucose" value="glucose" /></td>
+                                </tr>
+
+
+                            </table>
+                            <h2>4. Do you want a hard copy of the report also?</h2>
+                            <table>
+
+                                <tr>
+                                    <td><label for="reportoption">Do you want a hard copy of the report also?</td>
+                                    <td><label for="yes">Yes</td>
+                                    <td><input type="radio" name="reportoption" id="yes" value="yes" /></td>
+                                    <td><label for="no">No</td>
+                                    <td><input type="radio" name="reportoption" id="no" value="no" /></td>
+                                </tr>
+
+                            </table>
+                            <h2>5. Select Your Comfortable Date and Time</h2>
+                            <table>
+
+                                <tr>
+                                    <td><label for="apptdate">Date</td>
+                                    <td><input type="date" name="apptdate" id="apptdate" /></td>
+                                    <td><label for="appttime">Time</td>
+                                    <td><input type="time" name="appttime" id="appttime" /></td>
+                                </tr>
+
+                            </table>
+
+                    </td>
+                    <td>
+    </div>
+    <div>
+        <td><img src="./Images/Lab-Test/lab-test.jpg" /></td>
+
+    </div>
+
+    <div>
+
+        </tr>
+        <tr>
+            <td><input class="button" type="reset" /></td>
+            <td><input class="button" type="submit" /></td>
+
+        </tr>
+
+        </table>
+
+        </form>
+
+    </div>
+
+
+   
+</body>
+
+</html>
