@@ -31,7 +31,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .menu li a {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     text-decoration: none;
 }
@@ -64,6 +64,10 @@ footer {
 #DD_1 li,
 #DD_2 li {
     display: block;
+}
+#DD_1 li:hover,
+#DD_1 li:hover {
+    background-color: aqua;
 }
  .footer {
     
@@ -120,6 +124,8 @@ input[type=text] {
 .items {
     border: 1px solid black;
     background: white;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .items :nth-child(3),  .items :nth-child(4) {
@@ -162,5 +168,5 @@ td {
 }
 .cart :active {
     background-color: rgb(250, 234, 230)   blue;
-    border: rgb(0, 255, 76);
+    border: rgb(0, 255, 76) solid 2px;
 }
