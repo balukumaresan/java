@@ -116,21 +116,51 @@ input[type=text] {
 }
 
 
-#testformdiv {
-    border: solid 2px black;
-}
-.button {
-    color: white;
-    background-color: blueviolet;
-}
 
 .items {
     border: 1px solid black;
+    background: white;
 }
 
-img {
-    size-adjust: 10%;
+.items :nth-child(3),  .items :nth-child(4) {
+    color: blue;
+    font-size: 1.2rem;
+}
+.items :hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:300px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+
+
+tr {
+    height: 100%;
 }
 td {
+
     width: 25%;
+}
+.cart {
+    color: orange;
+    font-size: 1.2em;
+    height: auto;
+    background-color: rgba(133, 133, 133, .1);
+    border-radius: 10px;
+    border: black 2px solid;
+    margin: auto;
+    display: block;
+    width: auto;
+}
+
+.itemscontainer {
+    border: black 2px solid;
+}
+.cart :active {
+    background-color: rgb(250, 234, 230)   blue;
+    border: rgb(0, 255, 76);
 }
