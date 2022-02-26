@@ -1,0 +1,56 @@
+#todo {
+    color: blue;
+    margin: 10px 25%;
+    size: 50%;
+    border: rgba(68, 66, 66, 0.178) solid 1px ;
+    
+}
+h2 {
+    margin: 20px;
+}
+.task {
+    margin: 10px 10px 10px 20px    ;
+    padding: 2px;
+    width: 400px;
+    color: black;
+    border: rgba(68, 66, 66, 0.178) solid 1px ;
+}
+
+.add {
+    color: white;
+    background-color: blue;
+}
+
+#tasks {
+    color: black;
+    display: -moz-inline-grid;
+}
+
+
+#tasks button{
+    display: inline-block;
+    vertical-align: top;
+}
+.edit {
+    color: white;
+    background-color: green;
+}
+.delete {
+    color: white;
+    background-color: red;
+}
+#tasks ul{
+    margin: 10px 10px 10px 20px    ;
+    display: inline-block;
+    list-style-type: none;
+    width: 310px;
+}
+.tasklist{
+    color: black;
+ 
+    width: 310px;
+} 
+li::selection  {
+    background-color: red;
+}
+
