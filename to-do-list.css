@@ -39,6 +39,11 @@ h2 {
     color: white;
     background-color: red;
 }
+.update {
+    color: white;
+    background-color: blue;
+
+}
 #tasks ul{
     margin: 10px 10px 10px 20px    ;
     display: inline-block;
