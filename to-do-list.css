@@ -54,3 +54,10 @@ li::selection  {
     background-color: red;
 }
 
+.tasklistelement {
+    color: black;
+ 
+    width: 310px;
+
+}
+
