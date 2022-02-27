@@ -8,6 +8,7 @@
 h2 {
     margin: 20px;
 }
+
 .task {
     margin: 10px 10px 10px 20px    ;
     padding: 2px;
@@ -26,43 +27,44 @@ h2 {
     display: -moz-inline-grid;
 }
 
-
 #tasks button{
     display: inline-block;
     vertical-align: top;
 }
+
 .edit {
     color: white;
     background-color: green;
 }
+
 .delete {
     color: white;
     background-color: red;
 }
+
 .update {
     color: white;
     background-color: blue;
 
 }
+
 #tasks ul{
     margin: 10px 10px 10px 20px    ;
     display: inline-block;
     list-style-type: none;
     width: 310px;
 }
+
 .tasklist{
-    color: black;
- 
+    color: black; 
     width: 310px;
 } 
+
 li::selection  {
     background-color: red;
 }
 
 .tasklistelement {
-    color: black;
- 
+    color: black; 
     width: 310px;
-
 }
-
